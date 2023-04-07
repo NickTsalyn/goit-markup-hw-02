@@ -1,10 +1,22 @@
+.root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-background-color:  #FFFFFF;
+}
+
+
 .list {
   list-style: none;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--primary-background-color);
+}
+
+/* ---------------MAIN CONTENT ---------------*/
 .link {
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -14,8 +26,8 @@
   color: #2e2f42;
 }
 
+
 .menu {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -24,7 +36,7 @@
   color: #2e2f42;
 }
 .logo-item {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -37,7 +49,7 @@
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -48,8 +60,7 @@
   color: #4d5ae5;
 }
 
-.logo-style {
-  font-family: "Raleway", sans-serif;
+.logo-style { 
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -61,7 +72,6 @@
 }
 
 .menu-list {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -71,7 +81,6 @@
 }
 
 .contacts {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -80,7 +89,6 @@
 }
 
 .email {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -89,7 +97,6 @@
 }
 
 .phone-number {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -99,17 +106,37 @@
 }
 
 .main-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  /* color: #FFFFFF; */
+
+}
+
+.section-main {
+  background: #2E2F42;
+}
+
+.section-team {
+  background: #F4F4FD;
+}
+
+.dark-theme {
+  color: #FFFFFF;
+
+}
+
+.light-theme {
+  color: #F4F4FD;
+}
+
+
+footer {
+  background: #2E2F42;
 }
 
 .button {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -124,7 +151,6 @@
 }
 
 .features {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -133,7 +159,6 @@
 }
 
 .description {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -142,7 +167,6 @@
 }
 
 .title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -153,7 +177,6 @@
 }
 
 .employee-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -163,7 +186,6 @@
 }
 
 .employee-position {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -173,7 +195,6 @@
 }
 
 .conclusion {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -183,8 +204,9 @@
 
 /* Portfolio */
 
+
+
 .list-button {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
