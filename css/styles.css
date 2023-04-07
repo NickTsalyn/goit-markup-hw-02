@@ -2,6 +2,8 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --primary-background-color:  #FFFFFF;
+  --primary-text-color: #434455;
+  --secondary-text-color: #2E2F42;
 }
 
 
@@ -10,8 +12,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: var(--primary-background-color);
+  font-family: var(--primary-background-color);
+  background-color: var(--primary-background-color)
 }
 
 /* ---------------MAIN CONTENT ---------------*/
