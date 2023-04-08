@@ -155,7 +155,6 @@ footer {
 }
 
 .button {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -166,6 +165,11 @@ footer {
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404BBF ;
 }
 
 .features {
