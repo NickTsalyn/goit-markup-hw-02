@@ -149,6 +149,19 @@ body {
   color: #F4F4FD;
 }
 
+.secondary-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--secondary-text-color);
+}
+
+.team-list {
+  background-color: var(--primary-background-color);
+}
 
 footer {
   background: #2E2F42;
