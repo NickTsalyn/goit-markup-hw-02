@@ -1,4 +1,4 @@
-.root {
+:root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --primary-background-color: #ffffff;
@@ -11,9 +11,9 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  color: #434455;
+  font-family: var(--primary-font);
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
 }
 
 /* ---------------MAIN CONTENT ---------------*/
