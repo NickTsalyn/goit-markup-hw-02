@@ -53,7 +53,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -278,6 +278,10 @@ footer {
   color: #434455;
 }
 
+.features-item {
+  
+}
+
 .conclusion {
   font-weight: 400;
   font-size: 16px;
@@ -286,5 +290,4 @@ footer {
   color: #f4f4fd;
 }
 
-/* Portfolio */
 
