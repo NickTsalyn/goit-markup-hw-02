@@ -213,22 +213,22 @@ footer {
   border-radius: 4px;
 } */
 
-.button:hover,
-.button:focus {
+.menu-list:hover,
+.menu-list:focus {
   background-color: #404bbf;
   color: #FFFFFF;
   cursor: pointer;
 }
 
-.button-main:hover,
+/* .button-main:hover,
 .button-main:focus {
   background-color: #404bbf;
   color: #FFFFFF;
   cursor: pointer;
-}
+} */
 
-.button-item:hover,
-.button-item:focus {
+.menu-list:hover,
+.menu-list:focus {
   background-color: #404bbf;
   color: #FFFFFF;
   cursor: pointer;
