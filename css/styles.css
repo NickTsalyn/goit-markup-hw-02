@@ -76,7 +76,6 @@ body {
 .menu-list:hover,
 .menu-list:focus {
   color: #404bbf;
-  cursor: pointer;
 }
 
 .contacts {
