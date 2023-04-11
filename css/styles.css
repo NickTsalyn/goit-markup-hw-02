@@ -83,19 +83,10 @@ body {
   color: #2e2f42;
 }
 
-.link-studio:hover,
-.link-studio:focus {
+.menu-list:hover,
+.menu-list:focus {
   color: #404bbf;
-}
-
-.link-portfolio:hover,
-.link-portfolio:focus {
-  color: #404bbf;
-}
-
-.link-contacts:hover,
-.link-contacts:focus {
-  color: #404bbf;
+  cursor: pointer;
 }
 
 .contacts {
@@ -213,11 +204,7 @@ footer {
   border-radius: 4px;
 } */
 
-.menu-list:hover,
-.menu-list:focus {
-  color: #404bbf;
-  cursor: pointer;
-}
+
 
 .button:hover,
 .button:focus {
