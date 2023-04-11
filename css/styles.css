@@ -220,6 +220,13 @@ footer {
   cursor: pointer;
 }
 
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
 /* .button-main:hover,
 .button-main:focus {
   background-color: #404bbf;
