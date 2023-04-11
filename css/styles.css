@@ -215,8 +215,7 @@ footer {
 
 .menu-list:hover,
 .menu-list:focus {
-  background-color: #404bbf;
-  color: #FFFFFF;
+  color: #404bbf;
   cursor: pointer;
 }
 
